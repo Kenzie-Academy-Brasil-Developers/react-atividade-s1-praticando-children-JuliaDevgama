@@ -1,0 +1,16 @@
+.pai{
+    display: flex;
+}
+.child1, .child2, .child3{
+    width: 150px;
+    height: 90px;
+    border: 1px solid transparent;
+    background: rebeccapurple;
+    margin-right: 20px;
+    box-shadow: 1px 5px 5px black;
+}
+span {
+    position: relative;
+    top: 30%;
+    font-weight: bold;
+}
