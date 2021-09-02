@@ -1,30 +1,19 @@
+:root {
+    --fundo: rebeccapurple
+}
 .pai{
-    display: block;
-}
-.child1, .child2, .child3{
-    width: 150px;
-    height: 90px;
     border: 1px solid transparent;
-    background: rgb(189, 140, 238);
+    background: var(--fundo);
     margin-top: 20px;
-    box-shadow: 1px 5px 5px black;
-}
-span {
-    position: relative;
-    top: 30%;
-    font-weight: bold;
+    padding: 2%;
 }
 
 @media (min-width:769px){
-    .pai{
+    .App-header {
         display: flex;
+        flex-direction: row;
     }
-    .child1, .child2, .child3{
-        width: 150px;
-        height: 90px;
-        border: 1px solid transparent;
-        background: rebeccapurple;
-        margin-right: 20px;
-        box-shadow: 1px 5px 5px black;
+    .pai{
+        margin-left: 20px;
     }
 }

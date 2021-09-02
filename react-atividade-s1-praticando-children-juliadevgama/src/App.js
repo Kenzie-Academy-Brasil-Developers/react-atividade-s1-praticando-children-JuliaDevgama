@@ -5,10 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CenteredCard 
-        children1={1}
-        children2={2}
-        children3={3}/>
+          <CenteredCard>
+            <h3>Children 1</h3>
+          </CenteredCard>
+
+          <CenteredCard>
+            <h3>Children 2</h3>
+          </CenteredCard>
+
+          <CenteredCard>
+            <h3>Children 3</h3>
+          </CenteredCard>
       </header>
     </div>
   );
